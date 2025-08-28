@@ -15,10 +15,7 @@
     /* box-shadow: 0 5px 15px rgba(147, 14, 14, 0.1); */
     box-shadow: 0 5px 35px rgba(0, 0, 14, 0.1);
 }
-nav {
-    /* background-color: red; */
-    /* box-shadow:  -2px 5px red ; */
-}
+
 h2 { 
     /* margin-right: 190px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -57,6 +54,7 @@ h1 {
     background-color: black;
     color: #fff;
     display: inline-block;
+    line-height: 3rem;
     padding: 8px 25px;
     margin-top: 190px;
     border-radius: 10px;
@@ -67,7 +65,8 @@ h1 {
     display: flex;
     margin: 30px auto 0 auto;
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     border-radius: 5px;
     border-width: 1.6px;
@@ -79,3 +78,40 @@ h1 {
     color: #fff;
     transition: 0.3s ease-in-out;
 }
+
+
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        gap: 170px;
+    }
+    h1 {
+        font-size: 1.9rem;
+        line-height: 4rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    h2 {
+        margin-right: 0;
+    }
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    h1 {
+        width: 350px;
+        line-height: 2.2rem;
+        font-size: 1.6rem;
+    }
+    
+}
+
