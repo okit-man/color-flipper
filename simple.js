@@ -8,6 +8,7 @@ btn.addEventListener("click", function() {
     // console.log(document.body);
 
     // get a random number between 0 -4 in the array
+    // call the function to get a random number
     const randomNumber = getRandomNumber();
     console.log(randomNumber);
     

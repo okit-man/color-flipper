@@ -116,7 +116,10 @@ h1 {
         width: 350px;
         line-height: 2.2rem;
         font-size: 1.6rem;
-        margin-top: 160px;
+        margin-top: 180px;
+    }
+    .main-background {
+        height: 75vh;
     }
     
 }
