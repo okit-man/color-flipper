@@ -5,6 +5,11 @@
     box-sizing: border-box;
     
 }
+body {
+    background-color: #f1f5f8;
+    color: #f0f0f0;
+    line-height: 1.5rem;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -13,7 +18,7 @@
     height: 50px;
     background-color: #fff;
     /* box-shadow: 0 5px 15px rgba(147, 14, 14, 0.1); */
-    box-shadow: 0 5px 35px rgba(0, 0, 14, 0.1);
+    box-shadow: 0 5px 12px rgba(0, 14, 14, 0.1);
 }
 
 h2 { 
@@ -47,7 +52,7 @@ h2 {
     text-transform: capitalize;
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #F9FAFB;
+    /* background-color: #f1f5f8; */
     height: 91vh;
 }
 h1 {
@@ -111,6 +116,7 @@ h1 {
         width: 350px;
         line-height: 2.2rem;
         font-size: 1.6rem;
+        margin-top: 160px;
     }
     
 }
